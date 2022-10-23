@@ -9,6 +9,11 @@
     --Verydarkblue: hsl(216, 12%, 8%);
 }
 
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
 
 body {
     background-color: var(--Verydarkblue);
@@ -17,46 +22,86 @@ body {
     color: var(--white-);
 }
 
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 10rem;
+    left: 35rem;
+    background-color: var(--darkblue);
+    border-radius: 20px;
+    height: 25rem;
+    width: 25rem;
+}
 
+.starbox {
+    height: 40px;
+    width: 40px;
+    background-color: hsl(212, 16%, 21%);
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
 
+.star {
+    height: 15px;
+    width: 15px;
+}
 
+main h1 {
+    margin-bottom: 20px;
+}
 
+main p {
+    width: 20rem;
+    margin-bottom: 40px;
+}
 
+.numberbox {
+    display: flex;
+    gap: 1.5rem;
+    margin-bottom: 30px;
+}
+.numbers {
+    background-color: hsl(212, 16%, 21%);
+    height: 40px;
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;    
+}
 
+.numbers:hover {
+    background-color: var(--lightgrey);
+    cursor: pointer;
+}
 
+button {
+    padding:  10px 8rem;
+    color: var(--white-);
+    background-color: var(--primary-);
+    font-weight: 700;
+    border-radius: 50px;
+    outline: none;
+    border: none;
+}
 
+button:hover {
+    cursor: pointer;
+    color: var(--primary-);
+    background-color: var(--white-);
+}
 
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.attribution { font-size: 11px; text-align: center; }
-.attribution a { color: hsl(228, 45%, 44%); }
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
   
