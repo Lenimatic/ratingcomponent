@@ -1,0 +1,62 @@
+@import url(https://fonts.google.com/specimen/Overpass);
+
+:root {
+    --primary-: hsl(25, 97%, 53%);
+    --white-: hsl(0, 0%, 100%);
+    --lightgrey: hsl(217, 12%, 63%);
+    --mediumgrey: hsl(216, 12%, 54%);
+    --darkblue: hsl(213, 19%, 18%);
+    --Verydarkblue: hsl(216, 12%, 8%);
+}
+
+
+body {
+    background-color: var(--Verydarkblue);
+    font-size: 1rem;
+    font-family: 'Overpass';
+    color: var(--white-);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+  
